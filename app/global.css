@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    aside .sidebar-content .peoples{
+        scrollbar-color: rgba(var(--white-rgb), .16) #202c33;
+        scrollbar-width: thin;
+    }
+}
