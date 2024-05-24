@@ -6,7 +6,7 @@ const Navbar = () => {
                     <img src='https://randomuser.me/api/portraits/men/64.jpg' alt="" class='rounded-full w-full' />
                 </div>
                 <div className="py-3">
-                    <h4 class='text-white'>Gathogo</h4>
+                    <h4 class='text-white'>JohnSon Next</h4>
                     <p class='text-gray-500 text-xs'>Last Seen Today 08:22</p>
                 </div>
             </div>
