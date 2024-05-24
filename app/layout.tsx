@@ -10,11 +10,11 @@ const RootLayout = ({ children } : any) => {
                 <link rel="stylesheet" href="/static/css/style.css" />
                 <link rel="stylesheet" href="static/vendor/fontawesome/css/all.css" />
             </head>
-            <body class='bg-[#0b141a]'>
+            <body class='bg-[#0b141a]' id="body">
                 <Sidebar />
                 <main className="main relative w-[calc(100vw_-_24rem)] h-svh left-96">
                     <Navbar />
-                    <div className="main-content h-[calc(100vh_-_7rem)]">
+                    <div className="main-content h-[calc(100vh_-_7rem)]" style='background: url("/static/img/app/whatsappbg.webp")'>
                         { children }
                     </div>
                     <Footer />
