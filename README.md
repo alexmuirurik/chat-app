@@ -1,18 +1,36 @@
-# ChatAPP
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Looking to create a chat app using socket.io? Here's a whatsapp clone you can work with to build something interesting. 
+## Getting Started
 
-![alt text](/static/img/app/Screenshot%202024-05-24%20041049.png)
+First, run the development server:
 
-The app is running on NPM using [HONO](https://hono.dev/), typescript, and JSX in the backend. You might need to do some configuration to run client side features using JSX. 
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-However, I recommend using plain old javascript to perform client side operations because WHY NOT! 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-To run the app, simply clone the repo 
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-1. Git clone https://github.com/alexmuirurik/chatapp.git
-2. npm install 
-3. npm run dev
-4. npx tailwindcss -i ./app/global.css -o ./static/css/style.css --watch
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Happy Coding :)
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

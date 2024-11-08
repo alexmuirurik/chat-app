@@ -1,30 +1,30 @@
+import { EllipsisVertical, Infinity, MessageCircleHeartIcon, MessageCircleMore } from "lucide-react"
+import Link from "next/link"
+
 const SideHead = () => {
     return (
-        <div className="sidebar-header flex justify-between items-center bg-[#202c33] h-14">
+        <div className="sidebar-header flex items-center gap-12 bg-[#202c33] h-14">
             <div className="avatar w-10 mx-3 py-3">
-                <img src='/static/img/peoples/alexmuiruri.jpg' alt="" class='rounded-full w-full' />
+                <Link href='/'>
+                    <img src='https://randomuser.me/api/portraits/men/6.jpg' alt="" className='rounded-full w-full' />
+                </Link>
             </div>
-            <div className="flex items-center text-gray-400 gap-2 me-6">
-                <a href="#Groups" className="me-4 w-5">
-                    <span data-icon="status-outline" class="">
-                        <i class="fa-solid fa-infinity"></i>
+            <div className="flex justify-between items-center text-gray-400 gap-2 me-6 w-full">
+                <Link href="/about" className="me-4 w-5">
+                    <span data-icon="status-outline" className="">
+                        <Infinity />
                     </span>
-                </a>
-                <a href="#statuses" className="me-4 w-5">
-                    <span data-icon="newsletter-outline" class="">
-                        <i class="fa-regular fa-comment"></i>
+                </Link>
+                <Link href="/share" className="me-4 w-5">
+                    <span data-icon="newsletter-outline" className="">
+                        <MessageCircleHeartIcon />
                     </span>
-                </a>
-                <a href="#chats" className="me-4 w-5">
-                    <span data-icon="new-chat-outline" class="">
-                        <i class="fa-solid fa-comment-medical"></i>
+                </Link>
+                <Link href="/share" className="me-4 w-5">
+                    <span data-icon="new-chat-outline" className="">
+                        <MessageCircleMore />
                     </span>
-                </a>
-                <a href="#chats" className="me-4 w-1.5">
-                    <span data-icon="menu" class="">
-                        <i class="fa-solid fa-ellipsis-v"></i>
-                    </span>
-                </a>
+                </Link>
             </div>
         </div>
     )
