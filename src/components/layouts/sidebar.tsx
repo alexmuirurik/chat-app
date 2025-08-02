@@ -1,5 +1,5 @@
 import Chats from "./chats"
-import SidebarIcons from "./sidebaricons"
+import SidebarIcons from "./sidebar-icons"
 
 const Sidebar = () => {
     return (
