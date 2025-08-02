@@ -2,7 +2,7 @@ import { groups } from '../../lib/groups'
 
 const Chats = () => {
     return (
-        <div className='sidebar-chats w-10/12 overflow-y-scroll space-y-3 scroll-m-0'>
+        <div className='w-10/12 space-y-3 overflow-y-scroll hidden-scrollbar'>
             {groups.map((group) => {
                 return (
                     <div className="bg-accent flex items-center px-4 py-2 rounded-2xl cursor-pointer">

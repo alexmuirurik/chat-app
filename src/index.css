@@ -87,7 +87,7 @@
 }
 
 @layer utilities {
-    .sidebar-chats {
+    .hidden-scrollbar {
 		scrollbar-width: none;
     }	
 }
