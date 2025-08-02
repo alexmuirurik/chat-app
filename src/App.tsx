@@ -5,7 +5,7 @@ const App = () => {
     return (
         <div className="flex gap-3 w-full h-screen p-2">
             <Sidebar />
-            <main>
+            <main className='w-full'>
                 <Nav />
             </main>
         </div>
