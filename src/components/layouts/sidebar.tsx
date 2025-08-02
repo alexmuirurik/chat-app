@@ -3,7 +3,7 @@ import SidebarIcons from "./sidebaricons"
 
 const Sidebar = () => {
     return (
-        <aside className="flex gap-4 w-3/12 space-y-2 px-4">
+        <aside className="flex gap-4 w-3/12 space-y-2">
             <SidebarIcons />
             <Chats />
         </aside>
